@@ -1,0 +1,35 @@
+:root {
+    --primary: #1B2E3C;
+    --accent: #E1A140;
+    --highlight: #532200;
+    --background: #4b0000;
+    --text-highlight: #914110;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+}
+
+header {
+    background-image: url('https://via.placeholder.com/1920x600');
+    background-size: cover;
+    background-position: center;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+footer {
+    font-size: 0.9em;
+}
+
+footer .btn {
+    margin-top: 10px;
+}
+javascript
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("Bienvenido a mi portafolio");
+});
