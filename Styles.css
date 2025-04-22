@@ -12,11 +12,6 @@ body {
     color: var(--primary);
 }
 
-header {
-    background-image: url('https://via.placeholder.com/1920x600');
-    background-size: cover;
-    background-position: center;
-}
 
 .card ul {
     padding-left: 20px;
